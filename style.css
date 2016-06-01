@@ -1,0 +1,68 @@
+html body{
+	height:100%;
+	width:100%;
+	position:relative;
+	background-image: url("images/coming-soon-bkg.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+
+}
+
+.navbar{
+	background-color:rgba(0,0,0,0.5);
+	font-size:20px;
+}
+
+.navbar-brand{
+	font-size:30px;
+	padding-right:40px;
+}
+
+.btn-group button{
+	margin-right:20px;
+	width:150px;
+}
+
+#main{
+	margin:100px;
+}
+
+#screen{
+	width:736px;
+	height:400px;
+	background-color:black;
+	margin:auto;
+}
+
+#controls{
+	margin-top:50px;
+}
+
+.banner h1{
+	margin-left:50px;
+	display:inline-block;
+
+}
+
+.banner button{
+	margin-top:25px;
+	margin-right:50px;
+}
+
+.banner{
+	background-color:rgba(0,0,0,0.5);
+}
+
+#titleinfo{
+	margin-top:300px;
+}
+
+.input-group{
+	margin-bottom:30px;
+	font-weight:bold;
+}
+
+.form-control{
+	font-size:24px;
+}
+
