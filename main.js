@@ -29,7 +29,7 @@ $(document).ready(function () {
 	// function to load videos
 	function loadVideo() {
 		var myKey = "AIzaSyAr0fnc8B-t96isVPUByudWNPFDKJIugoc";
-		var request = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&order=viewCount&publishedAfter=2016-01-01T00%3A00%3A00Z&q=teaser%7Ctrailer&type=video&videoCaption=any&videoCategoryId=24&videoEmbeddable=true&key=' + myKey;
+		var request = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&order=viewCount&publishedAfter=2017-01-01T00%3A00%3A00Z&q=teaser%7Ctrailer&type=video&videoCaption=any&videoCategoryId=24&videoEmbeddable=true&key=' + myKey;
 		$.ajax({
 			url: request,
 			success: function (data) {
